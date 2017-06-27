@@ -1,0 +1,191 @@
+header{
+    font-family: 'Mukta Vaani', sans-serif;
+	background: url('../images/bg.jpg')center center;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header:after{
+	font-family: 'Mukta Vaani', sans-serif;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 9;
+	
+}
+
+.box-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Mukta Vaani', sans-serif;
+}
+
+.app{
+    position: relative;
+	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Mukta Vaani', sans-serif;
+	width: 98%;
+}
+
+h1{
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.5em;
+	color: #fff;
+	padding:5px;
+}
+
+h2{
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1em;
+	color: #fff;
+	padding:5px;
+}
+
+h3{
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 0.5em;
+	color: #fff;
+	padding:5px;
+}
+
+p{
+	font-family: 'Mukta Vaani', sans-serif;
+	color: #fff;
+	text-align: left;
+	padding:5px;
+}
+
+.container{
+
+}
+
+.food_truck_list{
+	background: rgba(255, 255, 255, 0.8);
+	background-size: cover;
+	z-index: 4;
+	width: 100%;
+	margin-top: -15px;
+}
+
+.food_truck_list h2{
+	color: #c40a20;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 0px;
+	z-index: 5;
+}
+
+.food_truck_list p{
+	color: #000;
+	font-size: 1.0em;
+	text-align: left;
+	padding-bottom: 0px;
+	z-index: 5;
+}
+
+.vj_mais_det{
+	width: 50%;
+	float: right;
+    margin-top: -65px;
+    margin-right: 15px;
+	z-index: 16;
+}
+
+.votos{
+	width: 50%;
+}
+
+.busca_topo{
+	background: #edd6a0;
+	padding-top:5px;
+}
+
+.cxBusca{
+	width: 85%;
+	border: none;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: #000;
+	margin-bottom: 3px;
+	margin-top: 2px;
+    height: 30px;
+    padding: 0px;
+}
+
+hr{
+	padding: 0px;
+	margin: 0px;
+}
+
+.mapa{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.detalhes_mapa{
+	padding-top: 10px;
+}
+
+.btn-ttc, .btn-ttc:hover, .btn-ttc:active {
+	color: white; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D13924;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 15px;
+	width: 32%;
+	margin-bottom:10px;
+}
+
+.btn-ttc1, .btn-ttc1:hover, .btn-ttc1:active {
+	color: white; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D13924;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 10px;
+	width: 90%;
+	margin-bottom:10px;
+}
+
+.btn-ttc2, .btn-ttc2:hover, .btn-ttc2:active {
+	color: white; 
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #D13924;
+	font-family: 'Mukta Vaani', sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	padding: 15px;
+	width: 49%;
+	margin-bottom:10px;
+	margin-top: 2px
+}
+
+.form{
+	width: 90%;
+    border-color: #D13924;
+    margin-bottom: 10px;
+    height: 60px;
+    padding: 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+	font-size: 15px;
+}
